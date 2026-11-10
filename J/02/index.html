@@ -14,11 +14,17 @@
   <script>
     EJS_player = '#game';
     EJS_core = 'snes';
-    EJS_gameUrl = '/JogosROM/smw.smc';          // ← coloque o nome novo aqui
+    EJS_gameUrl = '/JogosROM/smw.smc';               // ← ajuste o nome da ROM se necessário
     EJS_gameName = 'Super Mario World';
     EJS_color = '#ffcc00';
     EJS_pathtodata = 'https://cdn.emulatorjs.org/stable/data/';
-    EJS_startOnLoaded = true;                   // opcional: começa sozinho
+    
+    // Imagem de fundo na tela de início
+    EJS_backgroundImage = 'https://i.imgur.com/8QZ8QZ8.jpg';  // ← coloque o link da sua imagem aqui
+    EJS_backgroundBlur = true;                               // deixa a imagem com blur (fica mais bonito)
+    
+    // Opcional: muda o texto do botão
+    EJS_startButtonName = 'JOGAR';
   </script>
   <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
 </body>
